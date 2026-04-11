@@ -38,6 +38,7 @@ def set_cps(new_cps):
 # Create the GUI
 root = tk.Tk()
 root.title("Auto Clicker")
+print('fonctionnel')
 
 # Label to show current CPS
 cps_label = tk.Label(root, text=f"Current CPS: {cps}", font=("Arial", 14))
